@@ -10,25 +10,24 @@
 }
 
 .container{
-    background-color: blueviolet;
 }
 
 .negocios{
-    width: 200px;
-    height: 200px;
+    width: 700px;
+    height: 500px;
     border: 1px solid;
 
 }
 
 .trabalho{
-    width: 200px;
-    height: 200px;
+    width: 700px;
+    height: 500px;
     border: 1px solid;
 }
 
 .passeio{
-    width: 200px;
-    height: 200px;
+    width: 700px;
+    height: 500px;
     border: 1px solid;
 }
 
@@ -41,9 +40,16 @@ h2{
 }
 
 .imagem{
-
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/hotelsp.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .infos{
-    
+}
+
+.botao{
+
 }
