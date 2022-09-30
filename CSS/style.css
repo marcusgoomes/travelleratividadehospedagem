@@ -195,6 +195,18 @@ i {
 }
 
 
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(80, 80, 80);
+  padding: 2%;
+}
+
+.rodape p {
+  color: #fff;
+  text-align: center;
+}
 
 
 
@@ -210,10 +222,7 @@ i {
 
     h2{
         font-size: 1.5rem;
-    }
-
-    .header__menu {
-        position: relative;
+        text-align: center;
     }
 
     .links__menu {
@@ -272,6 +281,8 @@ i {
     .blocos {
         display: flex;
         flex-direction: column;
+        position: relative;
+        left: 10%;
         width: 100%;
         margin: 35vh 0 20vh 0;
     }
