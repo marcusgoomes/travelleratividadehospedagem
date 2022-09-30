@@ -57,6 +57,8 @@ h2 {
 }
 
 .banner {
+    width: 100%;
+    height: 100vh;
     background-image: url(../spbrilhos.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,17 +103,17 @@ h2 {
     align-items: center;
 }
 
-.titulobloco{
+.titulobloco {
     width: 100%;
     height: 40vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 5vh;
+    align-items: center;
+    padding: 5vh 0 0 0;
     box-sizing: border-box;
 }
 
-.blocos{
+.blocos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -120,7 +122,7 @@ h2 {
     height: 90vh;
 }
 
-.bloco{
+.bloco {
     width: 27%;
     height: 50vh;
     border: 0.5px solid rgb(70, 70, 70);
@@ -132,17 +134,17 @@ h2 {
     justify-content: center;
 }
 
-h1{
+h1 {
     font-size: 1.5rem;
     color: #fff;
 }
 
-p{
+p {
     color: #fff;
     text-align: justify;
 }
 
-h3{
+h3 {
     font-size: 1.2rem;
     color: #fff;
     display: flex;
@@ -159,24 +161,24 @@ h3{
     background-repeat: no-repeat;
 }
 
-.infos{
+.infos {
     width: 100%;
 }
 
-i{
+i {
     color: #fff;
     padding: 2% 0 2% 0;
     box-sizing: border-box;
 }
 
-.infos__1{
+.infos__1 {
     width: 100%;
     height: 5vh;
     display: flex;
     justify-content: center;
 }
 
-.botao{
+.botao {
     display: flex;
     justify-content: center;
     border: 0.2px solid #fff;
@@ -190,4 +192,104 @@ i{
     color: #fff;
     width: 100%;
     text-align: center;
+}
+
+
+
+
+
+@media (max-width: 940px) {
+    .header {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 8vh;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .header__menu {
+        position: relative;
+    }
+
+    .links__menu {
+        width: 100%;
+        height: 200px;
+        padding-right: 1vh;
+        position: fixed;
+        right: -100vw;
+        top: 10vh;
+        transition: 0.5s;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .header__chamada {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__botao {
+        padding: 5%;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 3%;
+        font-size: 2.5rem;
+        color: #fff;
+        width: 80%;
+    }
+
+    .header__chamada a:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+    }
+
+    .container{
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulobloco {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .blocos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 35vh 0 20vh 0;
+    }
+
+    .bloco {
+        width: 80%;
+        height: 50vh;
+        border: 0.5px solid rgb(70, 70, 70);
+        border-radius: 3%;
+        padding: 0 2% 0 2%;
+        margin: 7% 0 7% 0;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 14px;
+    }
 }
