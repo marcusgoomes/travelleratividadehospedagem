@@ -114,9 +114,14 @@ h2 {
 
 .bloco{
     width: 27%;
-    height: 40vh;
+    height: 50vh;
     border: 0.5px solid #fff;
     border-radius: 3%;
+    padding: 0 2% 0 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1{
@@ -126,6 +131,7 @@ h1{
 
 p{
     color: #fff;
+    text-align: justify;
 }
 
 h3{
@@ -133,12 +139,18 @@ h3{
     color: #fff;
     display: flex;
     justify-content: center;
+    padding-bottom: 2%;
+    box-sizing: border-box;
 }
 
 .imagem {
-    width: 90%;
-    height: 10vh;
+    width: 100%;
+    height: 20vh;
     background-image: url(../images/hotelsp.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+i{
+    color: #fff;
 }
