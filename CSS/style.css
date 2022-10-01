@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato & display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: lato;
     font-size: 19px;
 }
 
@@ -88,7 +91,7 @@ h2 {
 }
 
 .negocios, .passeio {
-    background-color: rgba(0, 0, 0, 1.0);
+    background-color: #0D0D0D;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,7 +99,7 @@ h2 {
 }
 
 .trabalho {
-    background-color: rgba(30, 30, 30, 1.0);
+    background-color: #0d0d0df1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,21 +145,87 @@ h1 {
 p {
     color: #fff;
     text-align: justify;
+    font-size: 0.8rem;
+    font-weight: 100;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #fff;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     padding-bottom: 2%;
     box-sizing: border-box;
 }
 
-.imagem {
+.imagem_IBIS {
     width: 100%;
     height: 20vh;
-    background-image: url(../images/hotelsp.jpeg);
+    background-image: url(/images/hotel\ ibis\ style\ anhembi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem_confort {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/Hotel\ comfort\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem_bluetreemorumbi {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/Blue\ tree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem_mercure {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/Mercure\ 2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagem_sheraton {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/WTC\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem_bourbon {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/Bourbon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem_bluetreepaulista {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/Blue\ tree\ paulista.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem_goldentulip {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/golden\ tulip\ paulista\ plaza\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem_renaissance {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/images/Renaissance\ São\ Paulo\ Hotel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -166,7 +235,7 @@ h3 {
 }
 
 i {
-    color: #fff;
+    color: #BF925A;
     padding: 2% 0 2% 0;
     box-sizing: border-box;
 }
@@ -192,10 +261,8 @@ i {
     color: #fff;
     width: 100%;
     text-align: center;
+    
 }
-
-
-
 
 
 @media (max-width: 940px) {
